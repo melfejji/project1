@@ -1,87 +1,5 @@
-Last login: Sun Dec 20 15:27:08 on ttys000
-Moncefs-MBP:~ melfejji$ git --version
-git version 2.6.3
-Moncefs-MBP:~ melfejji$ ls-al
--bash: ls-al: command not found
-Moncefs-MBP:~ melfejji$ ls -al
-total 72
-drwxr-xr-x@ 27 melfejji  staff    918 Dec 20 15:04 .
-drwxr-xr-x   7 root      admin    238 Dec  6 21:49 ..
--r--------   1 melfejji  staff      7 Aug 31 23:36 .CFUserTextEncoding
--rw-r--r--@  1 melfejji  staff  10244 Dec 20 15:19 .DS_Store
-drwx------   2 melfejji  staff     68 Dec 20 13:09 .Trash
--rw-------   1 melfejji  staff    566 Dec 20 15:31 .bash_history
-drwxr-xr-x  12 melfejji  staff    408 Dec 20 15:31 .bash_sessions
-drwx------   3 melfejji  staff    102 Sep 19 11:41 .cups
-drwxr-xr-x   5 melfejji  staff    170 Dec 13 21:18 .eclipse
--rw-r--r--@  1 melfejji  staff     17 Sep  5 19:40 .epxnqgse
-drwxr-xr-x   4 melfejji  staff    136 Nov  7 20:18 .oracle_jre_usage
-drwxr-xr-x   5 melfejji  staff    170 Dec 13 21:18 .p2
--rwxrwxrwx@  1 melfejji  staff     67 Sep  5 19:41 .rrvaacTrc
-drwxr-xr-x   3 melfejji  staff    102 Sep  7 19:06 .soapuios
-drwx------   4 melfejji  staff    136 Aug 15 14:25 Applications
-drwx------+  9 melfejji  staff    306 Dec 19 17:27 Desktop
-drwx------+  7 melfejji  staff    238 Oct 11 19:09 Documents
-drwx------+ 44 melfejji  staff   1496 Dec 20 15:16 Downloads
-drwx------@ 55 melfejji  staff   1870 Dec  6 22:00 Library
-drwx------+ 20 melfejji  staff    680 Nov 26 18:13 Movies
-drwx------+  4 melfejji  staff    136 Aug 15 14:23 Music
-drwx------+  5 melfejji  staff    170 Oct 17 19:04 Pictures
-drwxr-xr-x+  5 melfejji  staff    170 Aug 15 13:05 Public
-drwxr-xr-x+  3 melfejji  staff    102 Aug 31 23:15 Sites
-drwxr-xr-x   7 melfejji  staff    238 Sep  7 19:06 SoapUI-Tutorials
--rw-r--r--   1 melfejji  staff    250 Sep  7 21:16 default-soapui-workspace.xml
--rw-r--r--   1 melfejji  staff   2299 Sep  7 21:16 soapui-settings.xml
-Moncefs-MBP:~ melfejji$ git config --global user.name "Moncef Elfejji"
-Moncefs-MBP:~ melfejji$ git config --global user.email "melfejji@hotmail.com"
-Moncefs-MBP:~ melfejji$ tree .git
--bash: tree: command not found
-Moncefs-MBP:~ melfejji$ git status
-fatal: Not a git repository (or any of the parent directories): .git
-Moncefs-MBP:~ melfejji$ clear
-
-
-
-
-
-
-
-
-
-
-
-Moncefs-MBP:~ melfejji$ git init project1
-Initialized empty Git repository in /Users/melfejji/project1/.git/
-Moncefs-MBP:~ melfejji$ ls
-Applications			Pictures
-Desktop				Public
-Documents			Sites
-Downloads			SoapUI-Tutorials
-Library				default-soapui-workspace.xml
-Movies				project1
-Music				soapui-settings.xml
-Moncefs-MBP:~ melfejji$ cd project1
-Moncefs-MBP:project1 melfejji$ ls
-Moncefs-MBP:project1 melfejji$ ls -al
-total 0
-drwxr-xr-x   3 melfejji  staff  102 Dec 20 15:44 .
-drwxr-xr-x@ 29 melfejji  staff  986 Dec 20 15:44 ..
-drwxr-xr-x  10 melfejji  staff  340 Dec 20 15:44 .git
-Moncefs-MBP:project1 melfejji$ tree .git
--bash: tree: command not found
-Moncefs-MBP:project1 melfejji$ git status
-On branch master
-
-Initial commit
-
-nothing to commit (create/copy files and use "git add" to track)
-Moncefs-MBP:project1 melfejji$ mate
--bash: mate: command not found
-Moncefs-MBP:project1 melfejji$ vi
-Moncefs-MBP:project1 melfejji$ Vi
-
-
-
+Last login: Sun Dec 20 16:24:07 on ttys000
+Moncefs-MBP:~ melfejji$ vi first.txt
 
 
 
@@ -105,56 +23,26 @@ Moncefs-MBP:project1 melfejji$ Vi
 
 
 this is a test
-
-^
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
-~                                                                          
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
 -- INSERT --
